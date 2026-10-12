@@ -3,8 +3,8 @@
 
 int main ()
 {
-    int ret =0;
-    int no  =0;
+    int ret = 0;
+    int no  = 0;
 
     printf("Enter number : \n");
     ret = scanf("%d",&no);

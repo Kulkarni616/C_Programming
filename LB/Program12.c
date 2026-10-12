@@ -10,7 +10,6 @@ int main ()
     {
      fprintf(stderr,"Invalid input\n");
      return EXIT_FAILURE;
-
     } 
     printf("Input is valid\n");
     return EXIT_SUCCESS;
