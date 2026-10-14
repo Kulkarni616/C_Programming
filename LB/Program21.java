@@ -12,6 +12,5 @@ class Program21
       System.out.println("Welcome " + name);   
    }
 
-
 }
 

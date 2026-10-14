@@ -26,7 +26,6 @@ class Program38
      
    }
 
-
 }
 
 class Arithematic

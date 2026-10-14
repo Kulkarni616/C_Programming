@@ -15,6 +15,5 @@ class Program23
       System.out.println("Welcome " + sname);   
    }
 
-
 }
 
