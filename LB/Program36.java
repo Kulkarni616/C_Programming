@@ -21,11 +21,9 @@ class Program36
    {  
       Scanner scanner = null;
 
-
       int iValue1 = 0 ,iValue2 = 0, iResult = 0 ;
 
       scanner = new Scanner(System.in);
-
 
       System.out.println("Enter first number : ");
       iValue1 = scanner.nextInt();
@@ -35,7 +33,6 @@ class Program36
 
       iResult = Addition(iValue1,iValue2); 
    
-
       System.out.println("Addition is : " + iResult);
      
    }

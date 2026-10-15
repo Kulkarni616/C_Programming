@@ -12,7 +12,6 @@ class Program33
 
       scanner = new Scanner(System.in);
 
-
       System.out.println("Enter first number : ");
       iValue1 = scanner.nextInt();
 
@@ -21,7 +20,6 @@ class Program33
 
       iResult = iValue1 + iValue2 ; // Business logic
    
-
       System.out.println("Addition is : " + iResult);
      
    }
