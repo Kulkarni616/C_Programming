@@ -1,0 +1,13 @@
+# Compiled binaries
+Myexe
+TestExe
+java
+*.o
+*.out
+a.out
+
+# Editor/OS junk
+.vscode/
+.idea/
+*.swp
+.DS_Store
