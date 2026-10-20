@@ -11,7 +11,7 @@ void CheckVotingEligibillity(int iAge)
     {
       printf("Invalid Age\n");
     }
-   else
+    else
     {
       printf("Not Eligibile for voting\n");
     }

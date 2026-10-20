@@ -4,7 +4,7 @@
 
 typedef int BOOL;
 
-#define TRUE 1
+#define TRUE  1
 #define fALSE 0
 
 bool CheckDivision( int iNo1)
