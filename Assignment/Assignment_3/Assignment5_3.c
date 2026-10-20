@@ -4,13 +4,13 @@
 
 typedef int BOOL;
 
-#define TRUE 1
+#define TRUE  1
 #define FALSE 0
 
 bool ChkVowel( char CValue)
 {
 
-  if((CValue == 'a') || (CValue =='e') || (CValue =='i') || (CValue =='o') || (CValue =='u'))
+  if((CValue == 'a') || (CValue =='e') || (CValue =='i') || (CValue =='o') || (CValue =='u')|| (CValue =='A') || (CValue =='E') || (CValue =='I') || (CValue =='O') || (CValue =='U') )
   {
      return TRUE;
   }
@@ -44,4 +44,3 @@ int main()
 }
 
 
-  //(CValue =='A') || (CValue =='E') || (CValue =='I') || (CValue =='O') || (CValue ||'U'))

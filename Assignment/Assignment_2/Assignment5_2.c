@@ -4,7 +4,7 @@
 
 typedef int BOOL;
 
-#define TRUE 1
+#define TRUE  1
 #define FALSE 0
 
 bool ChkEven( int iNo1)
