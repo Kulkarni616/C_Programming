@@ -7,13 +7,13 @@ void CheckNumber( int iValue)
      {
         printf("Number is Positive\n");
      }
-     else if (iValue < 0)
+     else if (iValue == 0)
      {
-        printf("Number is Negative\n");
+        printf("Zero\n");
      }
      else
      {
-        printf("Zero\n");
+        printf("Number is Negative\n");
      }
 }
 
