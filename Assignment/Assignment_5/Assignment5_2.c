@@ -3,7 +3,7 @@
 
 void CheckLeapYear( int iYear )
 {
-   if(  ( ((iYear % 4) == 0) && ((iYear % 400)== 0))  || ((iYear % 100 )!= 0))
+   if((((iYear % 4) == 0) && ((iYear % 400)== 0))  || ((iYear % 100 )!= 0))
    {
       printf("Leap Year\n");
    }
