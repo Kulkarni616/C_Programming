@@ -1,6 +1,19 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+
+////////////////////////////////////////////////////////////
+//
+// Function Name : Display
+// Input         : Integer ,Integer
+// Output        : None
+// Description   : Performs Display First Number 
+//                 In Second Number Of Times
+// Date          : 022/10/2026
+// Author        : Snehal Sunil Kulkarni 
+//
+////////////////////////////////////////////////////////////
+
 void Display( int iNo1 , int frequency)
 {
    int iCnt = 0;

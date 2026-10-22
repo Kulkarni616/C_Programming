@@ -1,13 +1,26 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+
+////////////////////////////////////////////////////////
+//
+// Function Name : CheckTriangle
+// Input         : Integer, Integer, Integer 
+// Output        : None
+// Description   : Checks Whether Three Sides Can Form
+//                 a Valid Triangle
+// Date          : 22/10/2026
+// Author        : Snehal Sunil Kulkarni 
+//
+////////////////////////////////////////////////////////
+
 void CheckTriangle(int iSide1 , int iSide2 , int iSide3)
 {  
 
    if( (iSide1 < 0) || (iSide2 < 0)  || (iSide3 < 0))
    {
-     printf("Invalid Input\n");
-     return;
+      printf("Invalid Input\n");
+      return;
    }
 
    if(((iSide1 + iSide2) > iSide3) && ((iSide1 + iSide3)> iSide2) && ((iSide2+iSide3)> iSide1))

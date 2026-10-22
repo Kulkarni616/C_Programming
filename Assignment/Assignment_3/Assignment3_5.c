@@ -2,6 +2,18 @@
 #include <stdlib.h>
 #include <stdbool.h>
 
+
+////////////////////////////////////////////////////////
+//
+// Function Name : CheckVowel
+// Input         : Character 
+// Output        : Bool (True or False)
+// Description   : Checks Whether a Character Is a Vowel
+// Date          : 22/10/2026
+// Author        : Snehal Sunil Kulkarni 
+//
+////////////////////////////////////////////////////////
+
 typedef int BOOL;
 
 #define TRUE  1
@@ -10,14 +22,14 @@ typedef int BOOL;
 bool ChkVowel( char CValue)
 {
 
-  if((CValue == 'a') || (CValue =='e') || (CValue =='i') || (CValue =='o') || (CValue =='u')|| (CValue =='A') || (CValue =='E') || (CValue =='I') || (CValue =='O') || (CValue =='U') )
-  {
-     return TRUE;
-  }
-  else
-  {
-     return FALSE;
-  }
+    if((CValue == 'a') || (CValue =='e') || (CValue =='i') || (CValue =='o') || (CValue =='u')|| (CValue =='A') || (CValue =='E') || (CValue =='I') || (CValue =='O') || (CValue =='U') )
+    {
+      return TRUE;
+    }
+    else
+    {
+      return FALSE;
+    }
 
 }
 

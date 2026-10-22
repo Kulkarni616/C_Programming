@@ -1,6 +1,19 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+
+////////////////////////////////////////////////////////
+//
+// Function Name : CheckDivisibility
+// Input         : Integer 
+// Output        : None
+// Description   : Checks Whether a Number Is Divisible
+//                 by 5
+// Date          : 22/10/2026
+// Author        : Snehal Sunil Kulkarni 
+//
+////////////////////////////////////////////////////////
+
 void CheckDivisibility(int iValue)
 {  
     if(iValue % 5 == 0)

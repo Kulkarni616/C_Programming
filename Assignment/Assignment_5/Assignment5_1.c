@@ -1,6 +1,19 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+
+///////////////////////////////////////////////////////////
+//
+// Function Name : FindGreater
+// Input         : Integer ,Integer,Integer
+// Output        : None
+// Description   : Finds the Greatest Number Among Three
+//                 Integers
+// Date          : 22/10/2026
+// Author        : Snehal Sunil Kulkarni 
+//
+///////////////////////////////////////////////////////////
+
 void FindGreater( int iFirst , int iSeconds , int iThird)
 {
      if((iFirst >= iSeconds) && (iFirst >= iThird))

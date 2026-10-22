@@ -2,23 +2,34 @@
 #include <stdlib.h>
 #include <stdbool.h>
 
+////////////////////////////////////////////////////////
+//
+// Function Name : Display
+// Input         : Integer 
+// Output        : None
+// Description   : Performs Display * On Screen
+// Date          : 22/10/2026
+// Author        : Snehal Sunil Kulkarni 
+//
+////////////////////////////////////////////////////////
+
 void Display( int iNo1)
 {
-  int iCnt = 0;
+    int iCnt = 0;
   
-  iCnt = 1 ;
+    iCnt = 1 ;
 
-  if(iNo1 < 0)
-  {
-    iNo1 =- iNo1;
-  }
+    if(iNo1 < 0)
+    {
+      iNo1 =- iNo1;
+    }
 
-  while (iNo1 >= iCnt)
-  {
-    printf("*");
-    iNo1--;
-  }
-  printf("\n");
+    while (iNo1 >= iCnt)
+    {
+      printf("*");
+      iNo1--;
+    }
+    printf("\n");
    
 }
 

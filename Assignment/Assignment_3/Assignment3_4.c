@@ -2,6 +2,19 @@
 #include <stdlib.h>
 #include <stdbool.h>
 
+
+///////////////////////////////////////////////////////////////////
+//
+// Function Name : DisplayConvert
+// Input         : Character
+// Output        : None
+// Description   : Converts Uppercase to Lowercase and
+//                 Lowercase to Uppercase
+// Date          : 22/10/2026
+// Author        : Snehal Sunil Kulkarni 
+//
+///////////////////////////////////////////////////////////////////
+
 void DisplayConvert( char CValue)
 {
   

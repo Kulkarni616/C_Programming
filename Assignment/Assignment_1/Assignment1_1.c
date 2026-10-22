@@ -1,19 +1,31 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+
+////////////////////////////////////////////////////////
+//
+// Function Name : Divide 
+// Input         : Integer , Integer
+// Output        : Integer
+// Description   : Performs Two Number
+// Date          : 22/10/2026
+// Author        : Snehal Sunil Kulkarni 
+//
+////////////////////////////////////////////////////////
+
 int Divide( int iNo1 , int iNo2)
 {
 
-  int iAns = 0 ;
+    int iAns = 0 ;
 
-  if(iNo2 == 0)
-  {
-    return -1;
-  }
+    if(iNo2 == 0)
+    {
+      return -1;
+    }
 
-  iAns = iNo1/iNo2;
+    iAns = iNo1/iNo2;
 
-  return iAns;
+    return iAns;
 
 }
 

@@ -1,6 +1,19 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+
+////////////////////////////////////////////////////////
+//
+// Function Name : CheckVotingEligibillity
+// Input         : Integer 
+// Output        : None
+// Description   : Checks Whether a Person Is Eligible
+//                 for Voting Based on Age
+// Date          : 22/10/2026
+// Author        : Snehal Sunil Kulkarni 
+//
+////////////////////////////////////////////////////////
+
 void CheckVotingEligibillity(int iAge)
 {  
     if(iAge > 18)

@@ -2,6 +2,18 @@
 #include <stdlib.h>
 #include <stdbool.h>
 
+
+////////////////////////////////////////////////////////
+//
+// Function Name : CheckDivision
+// Input         : Integer 
+// Output        : Bool (True , False)
+// Description   : Performs Number is divisible by 5
+// Date          : 22/10/2026
+// Author        : Snehal Sunil Kulkarni 
+//
+////////////////////////////////////////////////////////
+
 typedef int BOOL;
 
 #define TRUE  1
@@ -10,14 +22,14 @@ typedef int BOOL;
 bool CheckDivision( int iNo1)
 {
 
-  if(iNo1 % 5 == 0)
-  {
-     return TRUE;
-  }
-  else
-  {
-     return fALSE;
-  }
+    if(iNo1 % 5 == 0)
+    {
+      return TRUE;
+    }
+    else
+    {
+      return fALSE;
+    }
 
 }
 

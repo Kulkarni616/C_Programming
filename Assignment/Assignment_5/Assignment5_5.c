@@ -2,6 +2,20 @@
 #include <stdlib.h>
 #include <stdbool.h>
 
+
+//////////////////////////////////////////////////////////
+//
+// Function Name : CheckCharaterType
+// Input         : Character
+// Output        : None
+// Description   : Checks Whether a Character Is an
+//                 Uppercase Alphabet, Lowercase Alphabet,
+//                 Digit, or Special Character
+// Date          : 22/10/2026
+// Author        : Snehal Sunil Kulkarni 
+//
+//////////////////////////////////////////////////////////
+
 void CheckCharaterType( char CValue)
 {
   

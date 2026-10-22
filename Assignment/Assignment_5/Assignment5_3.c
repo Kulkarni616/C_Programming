@@ -1,6 +1,18 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+
+////////////////////////////////////////////////////////
+//
+// Function Name : DisplayGrade
+// Input         : Float
+// Output        : None
+// Description   : Displays the Grade Based on Marks
+// Date          : 22/10/2026
+// Author        : Snehal Sunil Kulkarni 
+//
+////////////////////////////////////////////////////////
+
 void DisplayGrade( float fMarks)
 {
     if( (fMarks >= 90) && (fMarks <= 100))

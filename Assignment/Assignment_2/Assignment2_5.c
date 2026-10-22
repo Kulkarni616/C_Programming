@@ -2,6 +2,18 @@
 #include <stdlib.h>
 #include <stdbool.h>
 
+
+//////////////////////////////////////////////////////////
+//
+// Function Name : ChKEven
+// Input         : Integer 
+// Output        : BOOL(True or False)
+// Description   : Checks Whether a Number Is Even or Odd
+// Date          : 22/10/2026
+// Author        : Snehal Sunil Kulkarni 
+//
+//////////////////////////////////////////////////////////
+
 typedef int BOOL;
 
 #define TRUE  1
@@ -10,14 +22,14 @@ typedef int BOOL;
 bool ChkEven( int iNo1)
 {
 
-  if(iNo1 % 2 == 0)
-  {
-     return TRUE;
-  }
-  else
-  {
-     return FALSE;
-  }
+    if(iNo1 % 2 == 0)
+    {
+      return TRUE;
+    }
+    else
+    {
+      return FALSE;
+    }
 
 }
 

@@ -1,6 +1,19 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+
+/////////////////////////////////////////////////////////////////
+//
+// Function Name : CheckNumber
+// Input         : Integer 
+// Output        : None
+// Description   : Checks Whether a Number Is Positive,
+//                 Negative, or Zero
+// Date          : 22/10/2026
+// Author        : Snehal Sunil Kulkarni 
+//
+/////////////////////////////////////////////////////////////////
+
 void CheckNumber( int iValue)
 {
      if(iValue > 0 )
