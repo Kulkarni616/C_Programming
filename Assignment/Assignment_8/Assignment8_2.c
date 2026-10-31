@@ -1,6 +1,18 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+///////////////////////////////////////////////////////////
+//
+// Function Name : Display
+// Input         : Integer
+// Output        : None
+// Description   : Displays the Word Representation of a
+//                 Given Single Digit Number
+// Date          : 02/11/2026
+// Author        : Snehal Sunil Kulkarni
+//
+///////////////////////////////////////////////////////////
+
 void Display( int iNo )
 {
     if(iNo < 0)

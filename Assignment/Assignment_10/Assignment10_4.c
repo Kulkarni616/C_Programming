@@ -1,6 +1,18 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+///////////////////////////////////////////////////////////
+//
+// Function Name : FhtoCs
+// Input         : Float
+// Output        : Double
+// Description   : Converts the Given Temperature from
+//                 Fahrenheit to Celsius
+// Date          : 02/11/2026
+// Author        : Snehal Sunil Kulkarni
+//
+///////////////////////////////////////////////////////////
+
 double FhtoCs( float fTemp)
 {   
    

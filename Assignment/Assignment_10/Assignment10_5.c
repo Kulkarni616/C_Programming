@@ -1,6 +1,18 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+///////////////////////////////////////////////////////////
+//
+// Function Name : SquareMeter
+// Input         : Float
+// Output        : Double
+// Description   : Converts the Given Area from Square
+//                 Feet to Square Metres
+// Date          : 02/11/2026
+// Author        : Snehal Sunil Kulkarni
+//
+///////////////////////////////////////////////////////////
+
 #define FEET_TO_METER  0.0929
 
 double SquareMeter ( float fValue)

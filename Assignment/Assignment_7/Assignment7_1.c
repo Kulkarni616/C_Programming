@@ -1,6 +1,16 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+///////////////////////////////////////////////////////////
+//
+// Function Name : Pattern
+// Input         : Integer
+// Output        : None
+// Description   : Displays a Pattern of $ and * Symbols
+// Date          : 02/11/2026
+// Author        : Snehal Sunil Kulkarni
+//
+///////////////////////////////////////////////////////////
 
 void Pattern( int iNo)
 {

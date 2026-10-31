@@ -1,6 +1,18 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+///////////////////////////////////////////////////////////
+//
+// Function Name : CircleArea
+// Input         : Float
+// Output        : Double
+// Description   : Calculates and Returns the Area of a
+//                 Circle
+// Date          : 02/11/2026
+// Author        : Snehal Sunil Kulkarni
+//
+///////////////////////////////////////////////////////////
+
 #define PI 3.14
 
 double CircleArea( float fRadius)

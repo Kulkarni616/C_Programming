@@ -1,6 +1,18 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+///////////////////////////////////////////////////////////
+//
+// Function Name : DollerToINR
+// Input         : Integer
+// Output        : Integer
+// Description   : Converts the Given Amount from USD
+//                 to Indian Rupees (INR)
+// Date          : 02/11/2026
+// Author        : Snehal Sunil Kulkarni
+//
+///////////////////////////////////////////////////////////
+
 int DollerToINR( int iNo)
 {
     if(iNo < 0)

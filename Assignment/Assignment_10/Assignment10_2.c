@@ -1,6 +1,18 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+///////////////////////////////////////////////////////////
+//
+// Function Name : RectArea
+// Input         : Float, Float
+// Output        : Double
+// Description   : Calculates and Returns the Area of a
+//                 Rectangle
+// Date          : 02/11/2026
+// Author        : Snehal Sunil Kulkarni
+//
+///////////////////////////////////////////////////////////
+
 double RectArea( float fWidth , float fHeight)
 {
     if((fWidth < 0.0f) || (fHeight < 0.0f))

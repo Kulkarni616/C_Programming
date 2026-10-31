@@ -1,6 +1,18 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+///////////////////////////////////////////////////////////
+//
+// Function Name : OddFactorialNumber
+// Input         : Integer
+// Output        : Integer
+// Description   : Calculates and Returns the Product of
+//                 Odd Numbers from 1 to Given Number
+// Date          : 02/11/2026
+// Author        : Snehal Sunil Kulkarni
+//
+///////////////////////////////////////////////////////////
+
 int OddFactorialNumber(int iNo)
 {
     int iCnt = 0;

@@ -1,6 +1,18 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+///////////////////////////////////////////////////////////
+//
+// Function Name : Number
+// Input         : Integer
+// Output        : None
+// Description   : Checks Whether the Given Number is
+//                 Less, Medium or Large
+// Date          : 02/11/2026
+// Author        : Snehal Sunil Kulkarni
+//
+///////////////////////////////////////////////////////////
+
 void Number( int iNo)
 {
     if(iNo < 0)

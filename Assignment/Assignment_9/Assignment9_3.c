@@ -1,6 +1,18 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+///////////////////////////////////////////////////////////
+//
+// Function Name : EvenFactorialNumber
+// Input         : Integer
+// Output        : Integer
+// Description   : Calculates and Returns the Product of
+//                 Even Numbers from 1 to Given Number
+// Date          : 02/11/2026
+// Author        : Snehal Sunil Kulkarni
+//
+///////////////////////////////////////////////////////////
+
 int EvenFactorialNumber(int iNo)
 {
     int iCnt = 0;

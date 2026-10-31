@@ -1,6 +1,18 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+///////////////////////////////////////////////////////////
+//
+// Function Name : DisplayOdd
+// Input         : Integer
+// Output        : None
+// Description   : Displays Odd Numbers from 1 to Given
+//                 Number
+// Date          : 02/11/2026
+// Author        : Snehal Sunil Kulkarni
+//
+///////////////////////////////////////////////////////////
+
 void DisplayOdd(int iNo)
 {
   int iCnt = 0;

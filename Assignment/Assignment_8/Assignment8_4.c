@@ -1,6 +1,18 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+///////////////////////////////////////////////////////////
+//
+// Function Name : Table
+// Input         : Integer
+// Output        : None
+// Description   : Displays the Multiplication Table of
+//                 a Given Number
+// Date          : 02/11/2026
+// Author        : Snehal Sunil Kulkarni
+//
+///////////////////////////////////////////////////////////
+
 void Table(int iNo)
 {
     int iCnt = 0;

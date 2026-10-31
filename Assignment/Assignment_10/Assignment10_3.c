@@ -1,6 +1,18 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+///////////////////////////////////////////////////////////
+//
+// Function Name : KMtoMeter
+// Input         : Integer
+// Output        : Integer
+// Description   : Converts the Given Distance from
+//                 Kilometres to Metres
+// Date          : 02/11/2026
+// Author        : Snehal Sunil Kulkarni
+//
+///////////////////////////////////////////////////////////
+
 #define KM_To_Meter 1000
 
 int KMtoMeter ( int iNo)

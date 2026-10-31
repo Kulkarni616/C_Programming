@@ -1,6 +1,18 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+///////////////////////////////////////////////////////////
+//
+// Function Name : FactorialDiff
+// Input         : Integer
+// Output        : Integer
+// Description   : Calculates and Returns the Difference
+//                 Between Even and Odd Factorial Products
+// Date          : 02/11/2026
+// Author        : Snehal Sunil Kulkarni
+//
+///////////////////////////////////////////////////////////
+
 int FactorialDiff(int iNo)
 {
     int iCnt = 0;

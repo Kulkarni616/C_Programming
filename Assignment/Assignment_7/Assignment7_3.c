@@ -1,6 +1,18 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+///////////////////////////////////////////////////////////
+//
+// Function Name : Display
+// Input         : Integer
+// Output        : None
+// Description   : Displays Numbers from Negative of Given
+//                 Number to Positive of Given Number
+// Date          : 02/11/2026
+// Author        : Snehal Sunil Kulkarni
+//
+///////////////////////////////////////////////////////////
+
 void Display(int iNo)
 {
    int iCnt1 = 0;

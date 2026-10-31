@@ -1,6 +1,17 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+///////////////////////////////////////////////////////////
+//
+// Function Name : MultipleDisplay
+// Input         : Integer
+// Output        : None
+// Description   : Displays First Five Multiples of Given
+//                 Number
+// Date          : 02/11/2026
+// Author        : Snehal Sunil Kulkarni
+//
+///////////////////////////////////////////////////////////
 
 void MultipleDisplay( int iNo)
 {

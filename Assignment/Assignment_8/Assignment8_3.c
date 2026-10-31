@@ -1,6 +1,18 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+///////////////////////////////////////////////////////////
+//
+// Function Name : Factorial
+// Input         : Integer
+// Output        : Integer
+// Description   : Calculates and Returns the Factorial
+//                 of a Given Number
+// Date          : 02/11/2026
+// Author        : Snehal Sunil Kulkarni
+//
+///////////////////////////////////////////////////////////
+
 int Factorial(int iNo)
 {
     int iCnt = 0;
