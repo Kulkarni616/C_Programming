@@ -3,18 +3,24 @@
 
 double RectArea( float fWidth , float fHeight)
 {
-   double dArea = 0.0;
+    if((fWidth < 0.0f) || (fHeight < 0.0f))
+    {
+        printf("Invalid Input\n");
+        return EXIT_FAILURE;
+    }
 
-   dArea = fWidth * fHeight;
+    double dArea = 0.0;
 
-   return dArea;
-   
+    dArea = fWidth * fHeight;
+
+    return dArea;
+    
 }
 
 int main()
 {   
     float fValue1 = 0.0f,fValue2 = 0.0f;
-    double dRet = 0.0f;
+    double dRet = 0.0;
 
     printf("Enter width\n");
     scanf("%f",&fValue1);

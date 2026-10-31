@@ -3,16 +3,10 @@
 
 double FhtoCs( float fTemp)
 {   
-    if(fTemp < 0.0f )
-    {
-      printf("Invalid Input\n");
-      return fTemp;
-
-    }
-
+   
     float fCelcius = 0.0f;
 
-    fCelcius = ((fTemp-32)*(float)5/9);
+    fCelcius = ((fTemp-32)*((float)5/9));
 
     return fCelcius;
   

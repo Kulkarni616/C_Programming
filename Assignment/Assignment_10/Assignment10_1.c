@@ -5,11 +5,17 @@
 
 double CircleArea( float fRadius)
 {
-   double dArea = 0.0f;
+    if(fRadius <= 0.0f)
+    {
+        printf("Invalid Input\n");
+        return EXIT_FAILURE;
+    }
 
-   dArea = PI * (fRadius * fRadius);
+    double dArea = 0.0;
 
-   return dArea;
+    dArea = PI * (fRadius * fRadius);
+
+    return dArea;
 
 
 }
@@ -17,7 +23,7 @@ double CircleArea( float fRadius)
 int main()
 {   
     float fValue = 0.0f;
-    double dRet = 0.0f;
+    double dRet = 0.0;
 
     printf("Enter radius\n");
     scanf("%f",&fValue);

@@ -6,7 +6,7 @@ double SquareMeter ( float fValue)
     if( fValue < 0.0 )
     {
         printf("Invalid input\n");
-        return fValue;
+        return EXIT_FAILURE;
     }
 
     double dSqmeter = 0.0;
@@ -19,7 +19,7 @@ double SquareMeter ( float fValue)
 int main()
 {   
     float fValue = 0.0f;
-    double dRet = 0.0f;
+    double dRet = 0.0;
 
     printf("Enter Area in Square feet\n");
     scanf("%f",&fValue);

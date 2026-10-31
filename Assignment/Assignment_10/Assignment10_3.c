@@ -3,6 +3,12 @@
 
 int KMtoMeter ( int iNo)
 {
+    if( iNo < 0)
+    {
+     printf("Invalid Input\n");
+     return EXIT_FAILURE;
+    }
+
     int iMeter = 0;
 
     iMeter = iNo * 10000;
