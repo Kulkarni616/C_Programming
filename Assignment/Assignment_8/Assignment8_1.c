@@ -3,6 +3,12 @@
 
 void Number( int iNo)
 {
+    if(iNo < 0)
+    {
+        printf("Invalid Input\n");
+        return ;
+    }
+
     if( (iNo > 0 ) && (iNo < 50))
     {
         printf("Number is Less\n");

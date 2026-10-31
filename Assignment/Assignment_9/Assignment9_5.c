@@ -15,19 +15,15 @@ int FactorialDiff(int iNo)
     }
 
     
-    for( iCnt = 1 ; iCnt <= iNo ; iCnt++)
+    for(iCnt = 1; iCnt <= iNo; iCnt++)
     {
         if((iCnt % 2) == 0)
         {
-           iEven = iCnt * iEven;
+            iEven = iEven * iCnt;
         }
-    }
-
-    for( iCnt = 1 ; iCnt <= iNo ; iCnt++)
-    {
-        if((iCnt % 2) != 0)
+        else
         {
-          iOdd = iCnt * iOdd;
+            iOdd = iOdd * iCnt;
         }
     }
     

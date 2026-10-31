@@ -4,14 +4,13 @@
 
 void Pattern( int iNo)
 {
-  int iCnt = 0;
- 
-
-  for(iCnt = 1; iCnt <= iNo; iCnt++)
-  {
-   printf("$\t*\t");
-  }
-  printf("\n");
+    int iCnt = 0;
+    
+    for(iCnt = 1; iCnt <= iNo; iCnt++)
+    {
+      printf("$\t*\t");
+    }
+    printf("\n");
   
 }
 

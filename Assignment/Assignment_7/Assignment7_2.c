@@ -4,20 +4,20 @@
 
 void Display( int iNo)
 {
-  int iCnt = 0;
+   int iCnt = 0;
 
-  if(iNo < 0)
-  {
-    printf("Invalid Input\n");
-    return;
-  }
- 
+   if(iNo < 0)
+   {
+      printf("Invalid Input\n");
+      return;
+   }
+   
 
-  for(iCnt = 1; iCnt <= iNo; iCnt++)
-  {
-   printf("%d\t",iCnt);
-  }
-  printf("\n");
+   for(iCnt = 1; iCnt <= iNo; iCnt++)
+   {
+      printf("%d\t",iCnt);
+   }
+   printf("\n");
   
 }
 

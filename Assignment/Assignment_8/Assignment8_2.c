@@ -3,6 +3,11 @@
 
 void Display( int iNo )
 {
+    if(iNo < 0)
+    {
+        iNo =- iNo;
+    }
+
     if( iNo == 0)
     {
         printf("Zero\n");

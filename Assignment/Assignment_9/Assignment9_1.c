@@ -6,18 +6,23 @@ void Display( int iNo)
     int iCnt = 0;
     int icount = 0; 
 
-    for(iCnt = 1; iCnt <= iNo ; iCnt++)
+    if(iNo < 0)
     {
-        printf("*\t");
-        
+        iNo =- iNo;
     }
 
-    for(iCnt = 1; iCnt <= iNo ; iCnt++)
+    for(iCnt = 1; iCnt <= iNo * 2; iCnt++)
     {
-        printf("#\t");
-        
+       if(iCnt <= iNo)
+        {
+            printf("*\t");
+        }
+        else
+        {
+            printf("#\t");
+        }
     }
-        printf("\n");
+    printf("\n");
 
 }
 
