@@ -16,8 +16,6 @@
 void Display(int iNo)
 {
    int iCnt1 = 0;
-   int iCnt2 = 0;
-
    int iNo2 = 0;
 
    if(iNo < 0)
@@ -26,18 +24,17 @@ void Display(int iNo)
       return;
    }
 
-   if(iNo > 0)
-   {
-       iNo2 = iNo;    //pre-reserved original value
-       iNo =- iNo;
+   
+   iNo2 = iNo;    //pre-reserved original value
+   iNo =- iNo;
 
-       for(iCnt1 = iNo; iCnt1 <= iNo2; iCnt1++)
-       {
-         printf("%d\t",iCnt1);
-       }
-       printf("\n");
-       
+   for(iCnt1 = iNo; iCnt1 <= iNo2; iCnt1++)
+   {
+       printf("%d\t",iCnt1);
    }
+   printf("\n");
+       
+   
    
    
 }
