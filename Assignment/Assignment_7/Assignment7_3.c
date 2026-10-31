@@ -31,7 +31,7 @@ void Display(int iNo)
        iNo2 = iNo;    //pre-reserved original value
        iNo =- iNo;
 
-       for(iCnt1 = iNo; iCnt1 <= iNo2 ; iCnt1++)
+       for(iCnt1 = iNo; iCnt1 <= iNo2; iCnt1++)
        {
          printf("%d\t",iCnt1);
        }
