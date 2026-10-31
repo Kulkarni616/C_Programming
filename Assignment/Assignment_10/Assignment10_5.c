@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+#define FEET_TO_METER  0.0929
+
 double SquareMeter ( float fValue)
 {
     if( fValue < 0.0 )
@@ -11,7 +13,7 @@ double SquareMeter ( float fValue)
 
     double dSqmeter = 0.0;
 
-    dSqmeter = fValue * 0.0929;
+    dSqmeter = fValue * FEET_TO_METER;
 
     return dSqmeter;
 }

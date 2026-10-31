@@ -16,7 +16,7 @@ double FhtoCs( float fTemp)
 int main()
 {   
     float fValue = 0.0f;
-    double dRet = 0.0f;
+    double dRet = 0.0;
 
     printf("Enter the temperature in Fahrenheit\n");
     scanf("%f",&fValue);

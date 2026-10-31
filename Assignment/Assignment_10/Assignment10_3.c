@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+#define KM_To_Meter 1000
+
 int KMtoMeter ( int iNo)
 {
     if( iNo < 0)
@@ -11,7 +13,7 @@ int KMtoMeter ( int iNo)
 
     int iMeter = 0;
 
-    iMeter = iNo * 10000;
+    iMeter = iNo * KM_To_Meter;
 
     return iMeter;
 }
