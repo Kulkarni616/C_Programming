@@ -21,7 +21,7 @@ void Number( int iNo)
         return ;
     }
 
-    if( (iNo > 0 ) && (iNo < 50))
+    if((iNo < 50))
     {
         printf("Number is Less\n");
     }

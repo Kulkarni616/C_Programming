@@ -20,11 +20,11 @@ void Display( int iNo )
         iNo =- iNo;
     }
 
-    if( iNo == 0)
+    if(iNo == 0)
     {
         printf("Zero\n");
     }
-    else if( iNo == 1)
+    else if(iNo == 1)
     {
         printf("One\n");
     }
