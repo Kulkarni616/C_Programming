@@ -1,6 +1,18 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+///////////////////////////////////////////////////////////
+//
+// Function Name : CountOdd
+// Input         : Integer
+// Output        : Integer
+// Description   : Counts and Returns the Frequency of
+//                 Odd Digits in the Given Number
+// Date          : 04/11/2026
+// Author        : Snehal Sunil Kulkarni
+//
+///////////////////////////////////////////////////////////
+
 int CountOdd( int iNo)
 {  
     int iDigits = 0;

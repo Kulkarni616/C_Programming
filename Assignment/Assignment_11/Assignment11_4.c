@@ -1,6 +1,18 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+///////////////////////////////////////////////////////////
+//
+// Function Name : RangeSumEven
+// Input         : Integer, Integer
+// Output        : Integer
+// Description   : Calculates and Returns the Sum of All
+//                 Even Numbers Between the Given Starting
+//                 and Ending Points
+// Date          : 04/11/2026
+// Author        : Snehal Sunil Kulkarni
+//
+///////////////////////////////////////////////////////////
 
 int RangeSumEven(int iStart , int iEnd)
 {

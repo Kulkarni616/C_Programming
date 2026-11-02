@@ -1,6 +1,18 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+///////////////////////////////////////////////////////////
+//
+// Function Name : Percentage
+// Input         : Integer, Integer
+// Output        : Float
+// Description   : Calculates and Returns the Percentage
+//                 Based on Total Marks and Obtained Marks
+// Date          : 04/11/2026
+// Author        : Snehal Sunil Kulkarni
+//
+///////////////////////////////////////////////////////////
+
 float Percentage( int iTotal , int iObtain)
 {
     float fPer = 0.0f;

@@ -1,6 +1,19 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+///////////////////////////////////////////////////////////
+//
+// Function Name : Multiplay
+// Input         : Integer, Integer, Integer
+// Output        : Integer
+// Description   : Calculates and Returns the Multiplication
+//                 of Three Given Numbers, Treating Zero
+//                 Values as One
+// Date          : 04/11/2026
+// Author        : Snehal Sunil Kulkarni
+//
+///////////////////////////////////////////////////////////
+
 int Multiplay( int iNo1 , int iNo2 , int iNo3)
 {
     int iMult = 0;

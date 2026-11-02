@@ -1,6 +1,18 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+///////////////////////////////////////////////////////////
+//
+// Function Name : Count
+// Input         : Integer
+// Output        : Integer
+// Description   : Counts and Returns the Frequency of
+//                 Digits Less Than Six in the Given Number
+// Date          : 04/11/2026
+// Author        : Snehal Sunil Kulkarni
+//
+///////////////////////////////////////////////////////////
+
 int Count( int iNo)
 {  
     int iDigits = 0;

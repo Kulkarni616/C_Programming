@@ -1,6 +1,18 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+///////////////////////////////////////////////////////////
+//
+// Function Name : NonFact
+// Input         : Integer
+// Output        : void
+// Description   : Displays All Non-Factors of the Given
+//                 Number
+// Date          : 04/11/2026
+// Author        : Snehal Sunil Kulkarni
+//
+///////////////////////////////////////////////////////////
+
 void NonFact( int iNo )
 {
     int iCnt = 0;

@@ -1,6 +1,19 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+///////////////////////////////////////////////////////////
+//
+// Function Name : RangeSum
+// Input         : Integer, Integer
+// Output        : Integer
+// Description   : Calculates and Returns the Sum of All
+//                 Numbers Between the Given Starting
+//                 and Ending Points
+// Date          : 04/11/2026
+// Author        : Snehal Sunil Kulkarni
+//
+///////////////////////////////////////////////////////////
+
 
 int RangeSum(int iStart , int iEnd)
 {

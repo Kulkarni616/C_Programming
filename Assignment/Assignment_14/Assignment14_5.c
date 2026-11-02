@@ -1,7 +1,20 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int SumNonFact( int iNo )
+///////////////////////////////////////////////////////////
+//
+// Function Name : FactDiff
+// Input         : Integer
+// Output        : Integer
+// Description   : Calculates and Returns the Difference
+//                 Between the Sum of Factors and
+//                 Non-Factors of the Given Number
+// Date          : 04/11/2026
+// Author        : Snehal Sunil Kulkarni
+//
+///////////////////////////////////////////////////////////
+
+int FactDiff( int iNo )
 {
     int iCnt = 0;
     int iNonFact = 0;
@@ -33,7 +46,7 @@ int main()
     printf("Enter the number :\n");
     scanf("%d",&iValue);
 
-    iRet = SumNonFact(iValue);
+    iRet = FactDiff(iValue);
 
     printf("Difference is :%d\n",iRet);
 

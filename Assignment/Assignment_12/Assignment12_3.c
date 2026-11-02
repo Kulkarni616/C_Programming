@@ -1,6 +1,18 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+///////////////////////////////////////////////////////////
+//
+// Function Name : CountTwo
+// Input         : Integer
+// Output        : Integer
+// Description   : Counts and Returns the Frequency of
+//                 Digit Two in the Given Number
+// Date          : 04/11/2026
+// Author        : Snehal Sunil Kulkarni
+//
+///////////////////////////////////////////////////////////
+
 int CountTwo( int iNo)
 {  
     int iDigits = 0;

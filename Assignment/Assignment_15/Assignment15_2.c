@@ -1,6 +1,18 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+///////////////////////////////////////////////////////////
+//
+// Function Name : ChkGreater
+// Input         : Integer
+// Output        : BOOL
+// Description   : Checks Whether the Given Number is
+//                 Greater Than 100 or Not
+// Date          : 04/11/2026
+// Author        : Snehal Sunil Kulkarni
+//
+///////////////////////////////////////////////////////////
+
 typedef int BOOL;
 
 #define TRUE  0

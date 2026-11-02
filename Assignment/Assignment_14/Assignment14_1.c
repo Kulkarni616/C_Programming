@@ -1,6 +1,18 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+///////////////////////////////////////////////////////////
+//
+// Function Name : MultFact
+// Input         : Integer
+// Output        : Integer
+// Description   : Calculates and Returns the Multiplication
+//                 of All Factors of the Given Number
+// Date          : 04/11/2026
+// Author        : Snehal Sunil Kulkarni
+//
+///////////////////////////////////////////////////////////
+
 int MultFact( int iNo )
 {
     int iCnt = 0;

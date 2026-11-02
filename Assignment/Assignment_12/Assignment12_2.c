@@ -2,6 +2,18 @@
 #include <stdlib.h>
 #include <stdbool.h>
 
+///////////////////////////////////////////////////////////
+//
+// Function Name : ChkZero
+// Input         : Integer
+// Output        : BOOL
+// Description   : Checks Whether the Given Number
+//                 Contains Zero or Not
+// Date          : 04/11/2026
+// Author        : Snehal Sunil Kulkarni
+//
+///////////////////////////////////////////////////////////
+
 #define TRUE  0
 #define FALSE 1
 

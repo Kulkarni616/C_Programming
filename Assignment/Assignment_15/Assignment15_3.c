@@ -1,6 +1,18 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+///////////////////////////////////////////////////////////
+//
+// Function Name : ChkEqual
+// Input         : Integer, Integer
+// Output        : BOOL
+// Description   : Checks Whether the Given Two Numbers
+//                 are Equal or Not
+// Date          : 04/11/2026
+// Author        : Snehal Sunil Kulkarni
+//
+///////////////////////////////////////////////////////////
+
 typedef int BOOL;
 
 #define TRUE  0

@@ -1,6 +1,17 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+///////////////////////////////////////////////////////////
+//
+// Function Name : RangeDisplay
+// Input         : Integer, Integer
+// Output        : void
+// Description   : Displays All Numbers Between the Given
+//                 Starting and Ending Points
+// Date          : 04/11/2026
+// Author        : Snehal Sunil Kulkarni
+//
+///////////////////////////////////////////////////////////
 
 void RangeDisplay(int iStart , int iEnd)
 {

@@ -1,6 +1,18 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+///////////////////////////////////////////////////////////
+//
+// Function Name : MultDigits
+// Input         : Integer
+// Output        : Integer
+// Description   : Calculates and Returns the Multiplication
+//                 of All Non-Zero Digits in the Given Number
+// Date          : 04/11/2026
+// Author        : Snehal Sunil Kulkarni
+//
+///////////////////////////////////////////////////////////
+
 int MultDigits( int iNo)
 {  
     int iDigits = 0;

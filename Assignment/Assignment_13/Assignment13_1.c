@@ -1,6 +1,18 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+///////////////////////////////////////////////////////////
+//
+// Function Name : CountEven
+// Input         : Integer
+// Output        : Integer
+// Description   : Counts and Returns the Frequency of
+//                 Even Digits in the Given Number
+// Date          : 04/11/2026
+// Author        : Snehal Sunil Kulkarni
+//
+///////////////////////////////////////////////////////////
+
 int CountEven( int iNo)
 {  
     int iDigits = 0;

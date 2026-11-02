@@ -1,6 +1,18 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+///////////////////////////////////////////////////////////
+//
+// Function Name : FactRev
+// Input         : Integer
+// Output        : void
+// Description   : Displays All Factors of the Given Number
+//                 in Reverse Order
+// Date          : 04/11/2026
+// Author        : Snehal Sunil Kulkarni
+//
+///////////////////////////////////////////////////////////
+
 void FactRev( int iNo )
 {
     int iCnt = 0;
