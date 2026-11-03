@@ -7,8 +7,7 @@
 // Input         : Integer, Integer, Integer
 // Output        : Integer
 // Description   : Calculates and Returns the Multiplication
-//                 of Three Given Numbers, Treating Zero
-//                 Values as One
+//                 of Three Given Numbers
 // Date          : 04/11/2026
 // Author        : Snehal Sunil Kulkarni
 //

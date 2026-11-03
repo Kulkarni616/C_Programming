@@ -21,6 +21,12 @@ int FactDiff( int iNo )
     int iFact = 0;
     int iDiff = 0;
 
+    if(iNo < 0)
+    {
+        printf("Invalid Input\n");
+        return EXIT_FAILURE;
+    }
+
     for( iCnt = 1; iCnt <= iNo ; iCnt++)
     {
        if((iNo % iCnt) != 0)

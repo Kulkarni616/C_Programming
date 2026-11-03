@@ -18,6 +18,12 @@ int CountTwo( int iNo)
     int iDigits = 0;
     int iCount = 0;
 
+    if(iNo < 0)
+    {
+        printf("Invalid Input\n");
+        return EXIT_FAILURE;
+    }
+
     while( iNo != 0)
     {
        iDigits = iNo % 10 ;

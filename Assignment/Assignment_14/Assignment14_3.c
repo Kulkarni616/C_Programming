@@ -5,7 +5,7 @@
 //
 // Function Name : NonFact
 // Input         : Integer
-// Output        : void
+// Output        : None
 // Description   : Displays All Non-Factors of the Given
 //                 Number
 // Date          : 04/11/2026
@@ -16,6 +16,12 @@
 void NonFact( int iNo )
 {
     int iCnt = 0;
+
+    if(iNo < 0)
+    {
+        printf("Invalid Input\n");
+        return ;
+    }
 
     for( iCnt = 1; iCnt <= iNo ; iCnt++)
     {

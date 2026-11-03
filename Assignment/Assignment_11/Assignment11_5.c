@@ -5,7 +5,7 @@
 //
 // Function Name : RangeDisplayRev
 // Input         : Integer, Integer
-// Output        : void
+// Output        : None
 // Description   : Displays All Numbers Between the Given
 //                 Starting and Ending Points in Reverse
 //                 Order

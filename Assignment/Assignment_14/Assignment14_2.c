@@ -5,7 +5,7 @@
 //
 // Function Name : FactRev
 // Input         : Integer
-// Output        : void
+// Output        : None
 // Description   : Displays All Factors of the Given Number
 //                 in Reverse Order
 // Date          : 04/11/2026
@@ -16,6 +16,12 @@
 void FactRev( int iNo )
 {
     int iCnt = 0;
+
+    if(iNo < 0)
+    {
+        printf("Invalid Input\n");
+        return ;
+    }
 
     for( iCnt = (iNo/2) ; iCnt >= 1; iCnt--)
     {

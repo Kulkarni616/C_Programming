@@ -18,6 +18,12 @@ int MultFact( int iNo )
     int iCnt = 0;
     int iMult = 1;
 
+    if(iNo < 0)
+    {
+        printf("Invalid Input\n");
+        return EXIT_FAILURE;
+    }
+
     for( iCnt = 1 ; iCnt <= iNo/2 ; iCnt++ )
     {
        if((iNo % iCnt) == 0)

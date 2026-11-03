@@ -14,12 +14,18 @@
 ///////////////////////////////////////////////////////////
 
 float Percentage( int iTotal , int iObtain)
-{
-    float fPer = 0.0f;
+{   
+    if(iTotal <= 0 || iObtain < 0 || iObtain > iTotal)
+    {   
+        printf("Invalid Input\n");
+        return EXIT_FAILURE;
+    }
 
-    fPer = (((float)iObtain/iTotal)*100) ;
+    float fPercentage = 0.0f;
 
-    return fPer;
+    fPercentage = (((float)iObtain/iTotal)*100) ;
+
+    return fPercentage;
 
 }
 

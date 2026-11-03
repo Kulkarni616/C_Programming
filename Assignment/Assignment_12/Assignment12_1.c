@@ -5,7 +5,7 @@
 //
 // Function Name : DisplayDigits
 // Input         : Integer
-// Output        : void
+// Output        : None
 // Description   : Displays Each Digit of the Given Number
 // Date          : 04/11/2026
 // Author        : Snehal Sunil Kulkarni
